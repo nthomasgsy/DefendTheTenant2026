@@ -10,19 +10,19 @@ I then followed by using PowerShell scripts that I had generated from the Micros
 
 - [01PreparePowershell.ps1](01PreparePowershell.ps1) - [Prepare a safe administrative environment](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/2-prepare-safe-administrative-environment): I found that I had to copy out these commands and run them in the Terminal, as running them from within a script meant that they were unavailable for use with the following scripts.  The statements connect to Microsoft Graph and Teams and define the breakglass accounts.  It is necessary to retrieve Object IDs for the breakglass accounts from Entra before starting.
 
-- [02-CA001-Require-Phishing-Resistant-MFA-Admins.ps1](02-CA001-Require-Phishing-Resistant-MFA-Admins.ps1)
-- [03-CA002-Require-MFA-All-Users.ps1](03-CA002-Require-MFA-All-Users.ps1)
-- [04-CA003-Block-Legacy-Authentication.ps1](04-CA003-Block-Legacy-Authentication.ps1)
-- [05-CA004-Require-MFA-Medium-High-SignIn-Risk.ps1](05-CA004-Require-MFA-Medium-High-SignIn-Risk.ps1)
-- [06-CA005-Remediate-High-User-Risk.ps1](06-CA005-Remediate-High-User-Risk.ps1)
-- [07-PreventUngovernedApplicationConsent.ps1](07-PreventUngovernedApplicationConsent.ps1)
-- [08-ConfigureInvitedParticipantLobbyAccess.ps1](08-ConfigureInvitedParticipantLobbyAccess.ps1)
-- [09-RestrictTeamsPresentationPrivileges.ps1](09-RestrictTeamsPresentationPrivileges.ps1)
-- [10-RestrictTeamsAnonymousParticipation.ps1](10-RestrictTeamsAnonymousParticipation.ps1)
-- [11-ApplyLeastPrivilegedAdministrativeRoles.ps1](11-ApplyLeastPrivilegedAdministrativeRoles.ps1)
-- [11b-CreateAnEligibleAssignment.ps1](11b-CreateAnEligibleAssignment.ps1)
-- [12-EnableSelfServicePasswordReset.ps1](12-EnableSelfServicePasswordReset.ps1)
-- [13-ValidateSecurityControls.ps1](13-ValidateSecurityControls.ps1)
+- [02-CA001-Require-Phishing-Resistant-MFA-Admins.ps1](02-CA001-Require-Phishing-Resistant-MFA-Admins.ps1) - [Enforce phishing-resistant administrative authentication](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/3-enforce-phishing-resistant-administrative-authentication)
+- [03-CA002-Require-MFA-All-Users.ps1](03-CA002-Require-MFA-All-Users.ps1) - [Enforce universal multifactor authentication](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/4-enforce-universal-multifactor-authentication)
+- [04-CA003-Block-Legacy-Authentication.ps1](04-CA003-Block-Legacy-Authentication.ps1) - [Block legacy authentication](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/5-block-legacy-authentication)
+- [05-CA004-Require-MFA-Medium-High-SignIn-Risk.ps1](05-CA004-Require-MFA-Medium-High-SignIn-Risk.ps1) - [Sign-in risk protection](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/6-sign-risk-protection)
+- [06-CA005-Remediate-High-User-Risk.ps1](06-CA005-Remediate-High-User-Risk.ps1) - [User risk protection](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/7-user-risk-protection)
+- [07-PreventUngovernedApplicationConsent.ps1](07-PreventUngovernedApplicationConsent.ps1) - [Prevent ungoverned application consent](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/8-prevent-ungoverned-application-consent)
+- [08-ConfigureInvitedParticipantLobbyAccess.ps1](08-ConfigureInvitedParticipantLobbyAccess.ps1) - [Configure invited-participant lobby access](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/9-configure-invited-participant-lobby-access)
+- [09-RestrictTeamsPresentationPrivileges.ps1](09-RestrictTeamsPresentationPrivileges.ps1) - [Restrict Microsoft Teams presentation privileges](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/10-restrict-microsoft-teams-presentation-privileges)
+- [10-RestrictTeamsAnonymousParticipation.ps1](10-RestrictTeamsAnonymousParticipation.ps1) - [Restrict Microsoft Teams anonymous participation](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/11-restrict-microsoft-teams-anonymous-participation)
+- [11-ApplyLeastPrivilegedAdministrativeRoles.ps1](11-ApplyLeastPrivilegedAdministrativeRoles.ps1) - [Apply least-privileged administrative roles](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/12-apply-least-privileged-administrative-roles): Unused in challenge.
+- [11b-CreateAnEligibleAssignment.ps1](11b-CreateAnEligibleAssignment.ps1) - [Apply least-privileged administrative roles](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/12-apply-least-privileged-administrative-roles): Unused in challenge.
+- [12-EnableSelfServicePasswordReset.ps1](12-EnableSelfServicePasswordReset.ps1) - [Enable self-service password reset](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/13-enable-self-service-password-reset)
+- [13-ValidateSecurityControls.ps1](13-ValidateSecurityControls.ps1) - [Validate security controls](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/14-validate-security-controls)
 
 assess.ps1
 hardening-results.txt
