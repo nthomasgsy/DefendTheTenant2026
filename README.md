@@ -35,6 +35,8 @@ I then followed by using PowerShell scripts that I had generated from the Micros
 
 - [13-ValidateSecurityControls.ps1](13-ValidateSecurityControls.ps1) - [Validate security controls](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/14-validate-security-controls): not used to create anything, but contains PowerShell commands to assess policies.  Instead of running this, I would instead look to re-run the [Export Inventory PowerShell script](Export-M365SecurityInventory.ps1)
 
+Before assessment, all CA policies were moved to Enabled mode.
+
 ## Results
 In the Challenge, Microsoft provided the [assess.ps1](assess.ps1) Powershell Script.
 
