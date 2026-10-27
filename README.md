@@ -2,7 +2,7 @@
 Files for Defend The Tenant Challenge
 
 ## Approach Taken
-I started by running a [PowerShell script](Export-M365SecurityInventory.ps1) to gather an Inventory of the Current State, as recommended by the [Microsoft Learn Module](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/2-prepare-safe-administrative-environment).  The Powershell commands to use with this script are found [here](Export-M365SecurityInventoryCommands.txt).
+I started by running a [Export-M365SecurityInventory.ps1](Export-M365SecurityInventory.ps1) PowerShell script to gather an Inventory of the Current State, as recommended by the [Microsoft Learn Module](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/2-prepare-safe-administrative-environment).  The Powershell commands to use with this script are found [here](Export-M365SecurityInventoryCommands.txt).
 
 This then produced a [ZIP](20261023-115728Z.zip) with various files documenting the existing set up of the tenant.
 
@@ -35,5 +35,9 @@ I then followed by using PowerShell scripts that I had generated from the Micros
 
 - [13-ValidateSecurityControls.ps1](13-ValidateSecurityControls.ps1) - [Validate security controls](https://learn.microsoft.com/en-gb/training/modules/harden-microsoft-365-secure-score/14-validate-security-controls): not used to create anything, but contains PowerShell commands to assess policies.  Instead of running this, I would instead look to re-run the [Export Inventory PowerShell script](Export-M365SecurityInventory.ps1)
 
-assess.ps1
-hardening-results.txt
+## Results
+In the Challenge, Microsoft provided the [assess.ps1](assess.ps1) Powershell Script.
+
+This output [hardening-results.txt](hardening-results.txt).
+
+Unfortunately, in my case it failed to register the [CA003-Block-Legacy-Authentication](04-CA003-Block-Legacy-Authentication.ps1) script as implemented.  I re-ran the environment and implemented the CA policy through the portal, but recieved the same result after running the assessment again.
