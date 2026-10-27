@@ -1,0 +1,12 @@
+.\Export-M365SecurityInventory.ps1 -IncludeSection ConditionalAccess
+.\Export-M365SecurityInventory.ps1 -IncludeSection AuthenticationRegistration
+.\Export-M365SecurityInventory.ps1 -IncludeSection LegacyAuthentication -SignInLookbackDays 1
+.\Export-M365SecurityInventory.ps1 -IncludeSection IdentityRisk -SignInLookbackDays 1
+.\Export-M365SecurityInventory.ps1 -IncludeSection ConsentAndGrants
+.\Export-M365SecurityInventory.ps1 -IncludeSection TeamsPolicies
+.\Export-M365SecurityInventory.ps1 -IncludeSection AdministrativeRoles
+.\Export-M365SecurityInventory.ps1 -IncludeSection AuthenticationRegistration,PasswordReset
+
+.\Export-M365SecurityInventory.ps1 -SignInLookbackDays 7
+
+WARNING: Failed to clear the persisted MSAL token cache during Disconnect-MgGraph: The authority (including the tenant ID) must be in a well-formed URI format.  (Parameter 'authority')

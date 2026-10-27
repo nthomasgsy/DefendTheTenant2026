@@ -1,0 +1,628 @@
+
+Microsoft 365 live recommendation status
+Tenant: ced44ceb-325d-435b-978f-1becef552836 | Checked at: 2026-10-23 13:14:52Z
+MFA results check enabled configuration; complete coverage and registration are advisory.
+Registration data can lag by up to 36 hours. UNKNOWN means not verified, not necessarily unconfigured.
+
+
+Number Status      Recommendation                                                                     Evidence
+------ ------      --------------                                                                     --------
+     1 IMPLEMENTED Ensure multifactor authentication is enabled for all users in administrative roles Enabled
+                                                                                                      MFA
+                                                                                                      policy
+                                                                                                      found: 'CA
+                                                                                                      001-Requir
+                                                                                                      e-Phishing
+                                                                                                      -Resistant
+                                                                                                      -MFA-Admin
+                                                                                                      s' (ID: fd
+                                                                                                      26685b-fa7
+                                                                                                      b-4bb6-bcb
+                                                                                                      b-24cb4ac3
+                                                                                                      7af8,
+                                                                                                      state:
+                                                                                                      enabled);
+                                                                                                      'CA002-Req
+                                                                                                      uire-MFA-A
+                                                                                                      ll-Users'
+                                                                                                      (ID: 3c43c
+                                                                                                      953-6fa8-4
+                                                                                                      699-bad6-a
+                                                                                                      619a323bd1
+                                                                                                      d, state:
+                                                                                                      enabled);
+                                                                                                      'CA004-Req
+                                                                                                      uire-MFA-M
+                                                                                                      edium-High
+                                                                                                      -SignIn-Ri
+                                                                                                      sk' (ID: 0
+                                                                                                      859a033-6f
+                                                                                                      ea-484a-9d
+                                                                                                      b2-adc2121
+                                                                                                      93e9e,
+                                                                                                      state:
+                                                                                                      enabled);
+                                                                                                      'CA005-Rem
+                                                                                                      ediate-Hig
+                                                                                                      h-User-Ris
+                                                                                                      k' (ID: 7e
+                                                                                                      42e409-d92
+                                                                                                      0-4073-891
+                                                                                                      3-f4753f8e
+                                                                                                      ed16,
+                                                                                                      state:
+                                                                                                      enabled).
+                                                                                                      This
+                                                                                                      checks con
+                                                                                                      figuration
+                                                                                                      , not
+                                                                                                      every
+                                                                                                      account
+                                                                                                      or
+                                                                                                      sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory:
+                                                                                                      administra
+                                                                                                      tor role
+                                                                                                      coverage
+                                                                                                      could not
+                                                                                                      be evaluat
+                                                                                                      ed. An
+                                                                                                      assigned
+                                                                                                      role
+                                                                                                      could not
+                                                                                                      be
+                                                                                                      resolved
+                                                                                                      to a
+                                                                                                      built-in
+                                                                                                      template.
+                                                                                                      Exclusion
+                                                                                                      advisory:
+                                                                                                      'CA001-Req
+                                                                                                      uire-Phish
+                                                                                                      ing-Resist
+                                                                                                      ant-MFA-Ad
+                                                                                                      mins':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      [];
+                                                                                                      roles=[];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False; '
+                                                                                                      CA002-Requ
+                                                                                                      ire-MFA-Al
+                                                                                                      l-Users':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      []; roles=
+                                                                                                      [d29b2b05-
+                                                                                                      8046-44ba-
+                                                                                                      8758-1e261
+                                                                                                      82fcf32];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False; '
+                                                                                                      CA004-Requ
+                                                                                                      ire-MFA-Me
+                                                                                                      dium-High-
+                                                                                                      SignIn-Ris
+                                                                                                      k':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      [];
+                                                                                                      roles=[];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False; '
+                                                                                                      CA005-Reme
+                                                                                                      diate-High
+                                                                                                      -User-Risk
+                                                                                                      ':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      [];
+                                                                                                      roles=[];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False. E
+                                                                                                      xclusions
+                                                                                                      do not
+                                                                                                      change
+                                                                                                      the enable
+                                                                                                      d-policy
+                                                                                                      result. Re
+                                                                                                      gistration
+                                                                                                     
+                                                                                                      advisory:
+                                                                                                      5 of 6
+                                                                                                      checked
+                                                                                                      enabled
+                                                                                                      accounts
+                                                                                                      are not
+                                                                                                      reported M
+                                                                                                      FA-capable
+                                                                                                       and 0
+                                                                                                      have
+                                                                                                      missing
+                                                                                                      data. Regi
+                                                                                                      stration
+                                                                                                      data can
+                                                                                                      lag by up
+                                                                                                      to 36
+                                                                                                      hours and
+                                                                                                      does not
+                                                                                                      determine
+                                                                                                      the enable
+                                                                                                      d-policy
+                                                                                                      result.
+     2 IMPLEMENTED Ensure multifactor authentication is enabled for all users                         Enabled
+                                                                                                      MFA
+                                                                                                      policy
+                                                                                                      found: 'CA
+                                                                                                      002-Requir
+                                                                                                      e-MFA-All-
+                                                                                                      Users'
+                                                                                                      (ID: 3c43c
+                                                                                                      953-6fa8-4
+                                                                                                      699-bad6-a
+                                                                                                      619a323bd1
+                                                                                                      d, state:
+                                                                                                      enabled);
+                                                                                                      'CA004-Req
+                                                                                                      uire-MFA-M
+                                                                                                      edium-High
+                                                                                                      -SignIn-Ri
+                                                                                                      sk' (ID: 0
+                                                                                                      859a033-6f
+                                                                                                      ea-484a-9d
+                                                                                                      b2-adc2121
+                                                                                                      93e9e,
+                                                                                                      state:
+                                                                                                      enabled);
+                                                                                                      'CA005-Rem
+                                                                                                      ediate-Hig
+                                                                                                      h-User-Ris
+                                                                                                      k' (ID: 7e
+                                                                                                      42e409-d92
+                                                                                                      0-4073-891
+                                                                                                      3-f4753f8e
+                                                                                                      ed16,
+                                                                                                      state:
+                                                                                                      enabled).
+                                                                                                      This
+                                                                                                      checks con
+                                                                                                      figuration
+                                                                                                      , not
+                                                                                                      every
+                                                                                                      account
+                                                                                                      or
+                                                                                                      sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory:
+                                                                                                      broad prot
+                                                                                                      ection
+                                                                                                      was NOT
+                                                                                                      verified.
+                                                                                                      Review
+                                                                                                      role
+                                                                                                      coverage,
+                                                                                                      resource/c
+                                                                                                      lient/risk
+                                                                                                       condition
+                                                                                                      s, and una
+                                                                                                      pproved ex
+                                                                                                      clusions.
+                                                                                                      Exclusion
+                                                                                                      advisory:
+                                                                                                      'CA002-Req
+                                                                                                      uire-MFA-A
+                                                                                                      ll-Users':
+                                                                                                       excluded
+                                                                                                      users=[c9a
+                                                                                                      43335-5e12
+                                                                                                      -456b-916f
+                                                                                                      -521bb7b66
+                                                                                                      0c5, 11c73
+                                                                                                      569-f45b-4
+                                                                                                      ff4-94f5-d
+                                                                                                      a10de396e2
+                                                                                                      9]; groups
+                                                                                                      =[]; roles
+                                                                                                      =[d29b2b05
+                                                                                                      -8046-44ba
+                                                                                                      -8758-1e26
+                                                                                                      182fcf32];
+                                                                                                       guests/ex
+                                                                                                      ternal=Fal
+                                                                                                      se; approv
+                                                                                                      ed=False;
+                                                                                                      'CA004-Req
+                                                                                                      uire-MFA-M
+                                                                                                      edium-High
+                                                                                                      -SignIn-Ri
+                                                                                                      sk':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      [];
+                                                                                                      roles=[];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False; '
+                                                                                                      CA005-Reme
+                                                                                                      diate-High
+                                                                                                      -User-Risk
+                                                                                                      ':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      [];
+                                                                                                      roles=[];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False. E
+                                                                                                      xclusions
+                                                                                                      do not
+                                                                                                      change
+                                                                                                      the enable
+                                                                                                      d-policy
+                                                                                                      result. Re
+                                                                                                      gistration
+                                                                                                     
+                                                                                                      advisory:
+                                                                                                      11 of 12
+                                                                                                      checked
+                                                                                                      enabled
+                                                                                                      accounts
+                                                                                                      are not
+                                                                                                      reported M
+                                                                                                      FA-capable
+                                                                                                       and 0
+                                                                                                      have
+                                                                                                      missing
+                                                                                                      data. Regi
+                                                                                                      stration
+                                                                                                      data can
+                                                                                                      lag by up
+                                                                                                      to 36
+                                                                                                      hours and
+                                                                                                      does not
+                                                                                                      determine
+                                                                                                      the enable
+                                                                                                      d-policy
+                                                                                                      result.
+     3 UNKNOWN     Enable Conditional Access policies to block legacy authentication                  Block
+                                                                                                      policies
+                                                                                                      exist,
+                                                                                                      but
+                                                                                                      coverage
+                                                                                                      of both
+                                                                                                      legacy
+                                                                                                      client
+                                                                                                      types,
+                                                                                                      all users/
+                                                                                                      resources,
+                                                                                                       and only
+                                                                                                      approved e
+                                                                                                      xclusions
+                                                                                                      was not
+                                                                                                      verified.
+     4 IMPLEMENTED Enable Microsoft Entra ID Identity Protection sign-in risk policies                Enabled
+                                                                                                      sign-in
+                                                                                                      risk MFA
+                                                                                                      policy
+                                                                                                      found: 'CA
+                                                                                                      004-Requir
+                                                                                                      e-MFA-Medi
+                                                                                                      um-High-Si
+                                                                                                      gnIn-Risk'
+                                                                                                       (ID: 0859
+                                                                                                      a033-6fea-
+                                                                                                      484a-9db2-
+                                                                                                      adc212193e
+                                                                                                      9e,
+                                                                                                      state:
+                                                                                                      enabled).
+                                                                                                      Matching
+                                                                                                      requires
+                                                                                                      All
+                                                                                                      users,
+                                                                                                      medium
+                                                                                                      and high
+                                                                                                      sign-in
+                                                                                                      risk,
+                                                                                                      MFA, and e
+                                                                                                      very-time
+                                                                                                      primary-an
+                                                                                                      d-secondar
+                                                                                                      y reauthen
+                                                                                                      tication.
+                                                                                                      Security
+                                                                                                      Defaults
+                                                                                                      alone
+                                                                                                      does not
+                                                                                                      satisfy
+                                                                                                      this
+                                                                                                      check.
+                                                                                                      This
+                                                                                                      checks con
+                                                                                                      figuration
+                                                                                                      , not
+                                                                                                      every
+                                                                                                      account
+                                                                                                      or
+                                                                                                      sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory:
+                                                                                                      broad prot
+                                                                                                      ection
+                                                                                                      was NOT
+                                                                                                      verified.
+                                                                                                      Review
+                                                                                                      role
+                                                                                                      coverage,
+                                                                                                      resource/c
+                                                                                                      lient/risk
+                                                                                                       condition
+                                                                                                      s, and una
+                                                                                                      pproved ex
+                                                                                                      clusions.
+                                                                                                      Exclusion
+                                                                                                      advisory:
+                                                                                                      'CA004-Req
+                                                                                                      uire-MFA-M
+                                                                                                      edium-High
+                                                                                                      -SignIn-Ri
+                                                                                                      sk':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      [];
+                                                                                                      roles=[];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False. E
+                                                                                                      xclusions
+                                                                                                      do not
+                                                                                                      change
+                                                                                                      the enable
+                                                                                                      d-policy
+                                                                                                      result.
+     5 IMPLEMENTED Enable Microsoft Entra ID Identity Protection user risk policies                   Enabled
+                                                                                                      user risk
+                                                                                                      remediatio
+                                                                                                      n policy
+                                                                                                      found: 'CA
+                                                                                                      005-Remedi
+                                                                                                      ate-High-U
+                                                                                                      ser-Risk'
+                                                                                                      (ID: 7e42e
+                                                                                                      409-d920-4
+                                                                                                      073-8913-f
+                                                                                                      4753f8eed1
+                                                                                                      6, state:
+                                                                                                      enabled).
+                                                                                                      Matching
+                                                                                                      requires
+                                                                                                      All
+                                                                                                      users,
+                                                                                                      high user
+                                                                                                      risk, MFA
+                                                                                                      AND
+                                                                                                      exactly
+                                                                                                      one remedi
+                                                                                                      ation
+                                                                                                      control (p
+                                                                                                      asswordCha
+                                                                                                      nge or ris
+                                                                                                      kRemediati
+                                                                                                      on), and e
+                                                                                                      very-time
+                                                                                                      primary-an
+                                                                                                      d-secondar
+                                                                                                      y reauthen
+                                                                                                      tication.
+                                                                                                      Modern ris
+                                                                                                      kRemediati
+                                                                                                      on
+                                                                                                      requires
+                                                                                                      an MFA aut
+                                                                                                      henticatio
+                                                                                                      n
+                                                                                                      strength.
+                                                                                                      Security
+                                                                                                      Defaults
+                                                                                                      alone
+                                                                                                      does not
+                                                                                                      satisfy
+                                                                                                      this
+                                                                                                      check.
+                                                                                                      This
+                                                                                                      checks con
+                                                                                                      figuration
+                                                                                                      , not
+                                                                                                      every
+                                                                                                      account
+                                                                                                      or
+                                                                                                      sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory:
+                                                                                                      broad prot
+                                                                                                      ection
+                                                                                                      was NOT
+                                                                                                      verified.
+                                                                                                      Review
+                                                                                                      role
+                                                                                                      coverage,
+                                                                                                      resource/c
+                                                                                                      lient/risk
+                                                                                                       condition
+                                                                                                      s, and una
+                                                                                                      pproved ex
+                                                                                                      clusions.
+                                                                                                      Exclusion
+                                                                                                      advisory:
+                                                                                                      'CA005-Rem
+                                                                                                      ediate-Hig
+                                                                                                      h-User-Ris
+                                                                                                      k':
+                                                                                                      excluded u
+                                                                                                      sers=[c9a4
+                                                                                                      3335-5e12-
+                                                                                                      456b-916f-
+                                                                                                      521bb7b660
+                                                                                                      c5, 11c735
+                                                                                                      69-f45b-4f
+                                                                                                      f4-94f5-da
+                                                                                                      10de396e29
+                                                                                                      ]; groups=
+                                                                                                      [];
+                                                                                                      roles=[];
+                                                                                                      guests/ext
+                                                                                                      ernal=Fals
+                                                                                                      e; approve
+                                                                                                      d=False. E
+                                                                                                      xclusions
+                                                                                                      do not
+                                                                                                      change
+                                                                                                      the enable
+                                                                                                      d-policy
+                                                                                                      result.
+     6 IMPLEMENTED Ensure user consent to apps accessing company data on their behalf is not allowed  No default
+                                                                                                      -user self
+                                                                                                      -consent
+                                                                                                      policy is
+                                                                                                      assigned.
+                                                                                                      Existing
+                                                                                                      consent
+                                                                                                      grants
+                                                                                                      are not
+                                                                                                      revoked
+                                                                                                      by this
+                                                                                                      setting.
+     7 IMPLEMENTED Only invited users should be automatically admitted to Teams meetings              Global: Au
+                                                                                                      toAdmitted
+                                                                                                      Users is '
+                                                                                                      InvitedUse
+                                                                                                      rs'.
+     8 IMPLEMENTED Configure which users are allowed to present in Teams meetings                     Global: De
+                                                                                                      signatedPr
+                                                                                                      esenterRol
+                                                                                                      eMode is '
+                                                                                                      OrganizerO
+                                                                                                      nlyUserOve
+                                                                                                      rride'.
+     9 IMPLEMENTED Restrict anonymous users from joining meetings                                     Global: Al
+                                                                                                      lowAnonymo
+                                                                                                      usUsersToJ
+                                                                                                      oinMeeting
+                                                                                                       is
+                                                                                                      'False'.
+    10 IMPLEMENTED Ensure 'Self service password reset enabled' is set to 'All'                       Password
+                                                                                                      reset > Pr
+                                                                                                      operties
+                                                                                                      = All is
+                                                                                                      recorded
+                                                                                                      as operato
+                                                                                                      r-confirme
+                                                                                                      d by the
+                                                                                                      script
+                                                                                                      default. R
+                                                                                                      egistratio
+                                                                                                      n note: 1
+                                                                                                      of 12
+                                                                                                      enabled
+                                                                                                      member
+                                                                                                      accounts
+                                                                                                      are
+                                                                                                      reported S
+                                                                                                      SPR-regist
+                                                                                                      ered; 11
+                                                                                                      are not re
+                                                                                                      gistered
+                                                                                                      and 0
+                                                                                                      have
+                                                                                                      missing re
+                                                                                                      gistration
+                                                                                                       data. 1
+                                                                                                      are
+                                                                                                      reported S
+                                                                                                      SPR-capabl
+                                                                                                      e; 11 are
+                                                                                                      not
+                                                                                                      capable
+                                                                                                      and 0
+                                                                                                      have
+                                                                                                      missing ca
+                                                                                                      pability
+                                                                                                      data. Regi
+                                                                                                      stration
+                                                                                                      data can
+                                                                                                      lag by up
+                                                                                                      to 36
+                                                                                                      hours.
+
+
+Summary: 9 implemented, 0 not configured, 1 unknown (10 recommendations).
+Snapshot: C:\SecureM365Snapshots\ced44ceb-325d-435b-978f-1becef552836-m365-recommendation-status-20261023-131452331Z.json
